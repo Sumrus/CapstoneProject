@@ -1,0 +1,884 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-02T18:51:32.680Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5196202000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.medicare.CapstoneProject.definations.SetUp.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Get All Products",
+        "description": "",
+        "id": "this-feature-would-be-used-to-test-the-api-requests;get-all-products",
+        "after": [
+          {
+            "result": {
+              "duration": 247562000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.medicare.CapstoneProject.definations.SetUp.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2698621000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The base URI is \"http://localhost:8082/medicare/json/data/all/products\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://localhost:8082/medicare/json/data/all/products\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.medicare.CapstoneProject.definations.APIStepDeff.the_base_uri_is(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1286886000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Perform the Get Operation",
+            "match": {
+              "location": "com.medicare.CapstoneProject.definations.APIStepDeff.i_perform_the_get_operation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2718000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Response code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 24
+                }
+              ],
+              "location": "com.medicare.CapstoneProject.definations.APIStepDeff.response_code_should_be(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-02T18:51:42.296Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2066377000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.medicare.CapstoneProject.definations.SetUp.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Get Analgesics Product",
+        "description": "",
+        "id": "this-feature-would-be-used-to-test-the-api-requests;get-analgesics-product",
+        "after": [
+          {
+            "result": {
+              "duration": 126595000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.medicare.CapstoneProject.definations.SetUp.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3603000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The base URI is \"http://localhost:8082/medicare/json/data/category/2/products\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://localhost:8082/medicare/json/data/category/2/products\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.medicare.CapstoneProject.definations.APIStepDeff.the_base_uri_is(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 129921000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I Perform the Get Operation",
+            "match": {
+              "location": "com.medicare.CapstoneProject.definations.APIStepDeff.i_perform_the_get_operation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 333000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Response code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 24
+                }
+              ],
+              "location": "com.medicare.CapstoneProject.definations.APIStepDeff.response_code_should_be(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-02T18:51:44.665Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1420334000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.medicare.CapstoneProject.definations.SetUp.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Get Most Viewed Medicines",
+        "description": "",
+        "id": "this-feature-would-be-used-to-test-the-api-requests;get-most-viewed-medicines",
+        "after": [
+          {
+            "result": {
+              "duration": 123548000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.medicare.CapstoneProject.definations.SetUp.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1848000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The base URI is \"http://localhost:8082/medicare/json/data/mv/products\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://localhost:8082/medicare/json/data/mv/products\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.medicare.CapstoneProject.definations.APIStepDeff.the_base_uri_is(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 56178000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I Perform the Get Operation",
+            "match": {
+              "location": "com.medicare.CapstoneProject.definations.APIStepDeff.i_perform_the_get_operation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 203000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Response code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 24
+                }
+              ],
+              "location": "com.medicare.CapstoneProject.definations.APIStepDeff.response_code_should_be(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-02T18:51:46.289Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1462215000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.medicare.CapstoneProject.definations.SetUp.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Get Most Purchased Medicines",
+        "description": "",
+        "id": "this-feature-would-be-used-to-test-the-api-requests;get-most-purchased-medicines",
+        "after": [
+          {
+            "result": {
+              "duration": 153283000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.medicare.CapstoneProject.definations.SetUp.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3423000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The base URI is \"http://localhost:8082/medicare/json/data/mp/products\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://localhost:8082/medicare/json/data/mp/products\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.medicare.CapstoneProject.definations.APIStepDeff.the_base_uri_is(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 166305000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I Perform the Get Operation",
+            "match": {
+              "location": "com.medicare.CapstoneProject.definations.APIStepDeff.i_perform_the_get_operation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 298000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Response code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 24
+                }
+              ],
+              "location": "com.medicare.CapstoneProject.definations.APIStepDeff.response_code_should_be(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API"
+          }
+        ]
+      }
+    ],
+    "name": "This feature would be used to test the API Requests",
+    "description": "",
+    "id": "this-feature-would-be-used-to-test-the-api-requests",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/API.feature",
+    "tags": [
+      {
+        "name": "@API",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User opens the Medicare Website",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6607781000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on HomePage",
+            "match": {
+              "location": "com.medicare.CapstoneProject.definations.HomePageStepDeffs.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-02T18:51:48.112Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1396944000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.medicare.CapstoneProject.definations.SetUp.setUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Admin End To End Test",
+        "description": "",
+        "id": "this-feature-would-be-used-for-admin-end-to-end-test;admin-end-to-end-test;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 112538000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.medicare.CapstoneProject.definations.SetUp.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 671263000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on LogIn Button",
+            "match": {
+              "location": "com.medicare.CapstoneProject.definations.LogInStepDeffs.user_click_on_log_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5634368000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters Admin Email and Password \"vk@gmail.com\" and \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vk@gmail.com\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 56
+                }
+              ],
+              "location": "com.medicare.CapstoneProject.definations.LogInStepDeffs.user_enters_admin_email_and_password_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5650752000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks the LogIn Button",
+            "match": {
+              "location": "com.medicare.CapstoneProject.definations.LogInStepDeffs.user_clicks_the_log_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2736870000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks the Manage Product Button",
+            "match": {
+              "location": "com.medicare.CapstoneProject.definations.ManageProductDeff.user_clicks_the_manage_product_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 575638000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enters the Product Details \"ibuprofenTablet\",\"Advil\",\"Ibuprofen is used to reduce fever and treat pain\",\"50\" and \"20\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ibuprofenTablet\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"Advil\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"Ibuprofen is used to reduce fever and treat pain\"",
+                  "offset": 58
+                },
+                {
+                  "val": "\"50\"",
+                  "offset": 109
+                },
+                {
+                  "val": "\"20\"",
+                  "offset": 118
+                }
+              ],
+              "location": "com.medicare.CapstoneProject.definations.ManageProductDeff.user_enters_the_product_details_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1145515000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks on Upload File Button",
+            "match": {
+              "location": "com.medicare.CapstoneProject.definations.ManageProductDeff.user_clicks_on_upload_file_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 290636000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User Selects the Category for the Product",
+            "match": {
+              "location": "com.medicare.CapstoneProject.definations.ManageProductDeff.user_selects_the_category_for_the_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6235592000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks Save Button",
+            "match": {
+              "location": "com.medicare.CapstoneProject.definations.ManageProductDeff.user_clicks_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3329651000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks on the Show All Button",
+            "match": {
+              "location": "com.medicare.CapstoneProject.definations.ManageProductDeff.user_clicks_on_the_show_all_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81745000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User sees the \"ibuprofenTablet\" name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ibuprofenTablet\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.medicare.CapstoneProject.definations.ManageProductDeff.user_sees_the_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2332406000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User clicks on logout Button",
+            "match": {
+              "location": "com.medicare.CapstoneProject.definations.AdminE2EDeff.user_clicks_on_logout_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61209000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User is landed back to Login Page",
+            "match": {
+              "location": "com.medicare.CapstoneProject.definations.AdminE2EDeff.user_is_landed_back_to_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2E"
+          }
+        ]
+      }
+    ],
+    "name": "This feature would be used for Admin end to end test",
+    "description": "",
+    "id": "this-feature-would-be-used-for-admin-end-to-end-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AdminE2E.feature",
+    "tags": [
+      {
+        "name": "@E2E",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User opens the Medicare Website",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6455068000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on HomePage",
+            "match": {
+              "location": "com.medicare.CapstoneProject.definations.HomePageStepDeffs.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-02T18:52:25.071Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2323755000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.medicare.CapstoneProject.definations.SetUp.setUp()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "End to End test",
+        "description": "",
+        "id": "this-feature-would-be-used-to-run-e2e-test-for-user;end-to-end-test;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 129524000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.medicare.CapstoneProject.definations.SetUp.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 513727000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on LogIn Button",
+            "match": {
+              "location": "com.medicare.CapstoneProject.definations.LogInStepDeffs.user_click_on_log_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5514990000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters the Valid Email and Password \"sumit.rusia@gmail.com\" and \"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sumit.rusia@gmail.com\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"1234\"",
+                  "offset": 69
+                }
+              ],
+              "location": "com.medicare.CapstoneProject.definations.LogInStepDeffs.user_enters_the_valid_email_and_password_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5651335000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks the LogIn Button",
+            "match": {
+              "location": "com.medicare.CapstoneProject.definations.LogInStepDeffs.user_clicks_the_log_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2503621000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click on View Product Button",
+            "match": {
+              "location": "com.medicare.CapstoneProject.definations.HomePageStepDeffs.user_click_on_view_product_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5403700000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User click on the cart Button",
+            "match": {
+              "location": "com.medicare.CapstoneProject.definations.CheckOutDeffs.user_click_on_the_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5509992000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User click on the Checkout Button",
+            "match": {
+              "location": "com.medicare.CapstoneProject.definations.CheckOutDeffs.user_click_on_the_checkout_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5320776000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User click on the Select Button",
+            "match": {
+              "location": "com.medicare.CapstoneProject.definations.CheckOutDeffs.user_click_on_the_select_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5278122000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enter the card detail \"411111111111111\" , \"11\" , \"22\" and \"111\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"411111111111111\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"11\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"22\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"111\"",
+                  "offset": 63
+                }
+              ],
+              "location": "com.medicare.CapstoneProject.definations.CheckOutDeffs.user_enter_the_card_detail_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 410946000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks on the Pay Button",
+            "match": {
+              "location": "com.medicare.CapstoneProject.definations.CheckOutDeffs.user_clicks_on_the_pay_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43171000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User is able to see the Confirmaton Msg \"Your Order is Confirmed!!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your Order is Confirmed!!\"",
+                  "offset": 40
+                }
+              ],
+              "location": "com.medicare.CapstoneProject.definations.CheckOutDeffs.user_is_able_to_see_the_confirmaton_msg(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1403891000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User click on the Continue Shopping Button",
+            "match": {
+              "location": "com.medicare.CapstoneProject.definations.UserE2EDeff.user_click_on_the_continue_shopping_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52219000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User sees the All Product page",
+            "match": {
+              "location": "com.medicare.CapstoneProject.definations.UserE2EDeff.user_sees_the_all_product_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2E"
+          }
+        ]
+      }
+    ],
+    "name": "This feature would be used to run E2E test for User",
+    "description": "",
+    "id": "this-feature-would-be-used-to-run-e2e-test-for-user",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/UserE2E.feature",
+    "tags": [
+      {
+        "name": "@E2E",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
